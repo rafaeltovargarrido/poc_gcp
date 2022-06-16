@@ -6,7 +6,7 @@ metadata:
   labels:
     label-one: "value-one"
   name: dataflowjob-sample-batch
-  namespace: oat-dev-eu
+  namespace: oat-dev
 spec:
   tempGcsLocation: gs://${PROJECT_ID?}-dataflowjob-dep-batch/tmp
   # This is a public, Google-maintained Dataflow Job template of a batch job
@@ -27,4 +27,4 @@ metadata:
     cnrm.cloud.google.com/force-destroy: "true"
   # StorageBucket names must be globally unique. Replace ${PROJECT_ID?} with your project ID.
   name: oat-dev-eu-dataflowjob-dep-batch
-  namespace: oat-dev-eu
+  namespace: oat-dev
