@@ -5,6 +5,7 @@ metadata:
   name: secretmanagersecret-sample-automatic
   labels:
     replication-type: automatic
+    rafa: rafa
 spec:
   replication:
     automatic: true
